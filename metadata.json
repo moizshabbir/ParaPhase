@@ -1,0 +1,10 @@
+{
+  "name": "ParaPhase",
+  "description": "AI-powered tool to rephrase text for professional, casual, and academic tones.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
