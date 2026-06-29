@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  paraphase:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: paraphase-app
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - GEMINI_API_KEY=${GEMINI_API_KEY}
